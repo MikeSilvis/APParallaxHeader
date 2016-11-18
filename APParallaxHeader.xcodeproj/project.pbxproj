@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		36559D261DDFACF3007C96D6 /* APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 36559D241DDFACF3007C96D6 /* APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36559D2E1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 36559D2C1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.h */; };
+		36559D2F1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36559D2D1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36559D211DDFACF3007C96D6 /* APParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36559D241DDFACF3007C96D6 /* APParallaxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APParallaxHeader.h; sourceTree = "<group>"; };
 		36559D251DDFACF3007C96D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36559D2C1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		36559D2D1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				36559D241DDFACF3007C96D6 /* APParallaxHeader.h */,
 				36559D251DDFACF3007C96D6 /* Info.plist */,
+				36559D2C1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.h */,
+				36559D2D1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.m */,
 			);
 			path = APParallaxHeader;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36559D261DDFACF3007C96D6 /* APParallaxHeader.h in Headers */,
+				36559D2E1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36559D2F1DDFAD08007C96D6 /* UIScrollView+APParallaxHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
